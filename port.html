@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a1342e034f.js" crossorigin="anonymous"></script>
+    <script src="port.js" defer></script>
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="img/logo2.avif" alt="logo" id="logo" />
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></a></li>
+                    <li><a href="#container2">About</a></li>
+                    <li><a href="#servicecontainer">Services</a></li>
+                    <li><a href="#contactpage">Contact </a></li>
+                    <i class="fa-regular fa-circle-xmark cross" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars menu" onclick="openmenu()"></i>
+
+            </nav>
+        </div>
+        <div class="headertext">
+            <div class="hi"><span class="onlyhi">Hi,</span> i'm </div>
+            <diV class="suhel"><span class="onlyhi">Suhel</span> Sayyad</diV>
+        </div>
+
+    </div>
+    <div id="container2">
+        <div id="coloum1">
+            <img src="img/suhel.jpg" alt="my image" id="myimage" />
+        </div>
+
+        <div id="coloum2">
+            <div id="row1">
+                <h1>About Me</h1>
+            </div>
+            <div id="row2">
+                My name is suhel sayyad. I graduated from ADCET a month ago. Now, I am looking for my first full-time
+                job. I have been working as a freelance web developer for the last three years and cooperated with
+                several startups. I cannot say with 100% confidence where I see myself in five years or what my big
+                career goal is. The world is changing rapidly, and I don’t have enough professional experience to be
+                certain about such things. However, I know that I can provide a fresh take and an extraordinary approach
+                to every project. I am always open to challenges and constructive feedback. I am open-minded and learn
+                new things quickly. I want to become a team player and dedicate all my skills and talents to develop
+                high-quality and unique products.
+                <div class="tabs">
+                    <div class="tab-link active-link" onclick="opentab('skills')">skill</div>
+                    <div class="tab-link" onclick="opentab('experience')">Experience</div>
+                    <div class="tab-link" onclick="opentab('education')">Education</div>
+                </div>
+                <div class="tab-info active-tab" id="skills">
+                    <ul>
+                        <li><span class="title">JAVA</span><br>JAVA is a widely-used programming language for coding web
+                            applications.</li>
+                        <li><span class="title">JAVASCRIPT</span><br>JAVASCRIPT is the computer programming language
+                            which is commonly used to create interactive effects within web browsers.</li>
+                        <li><span class="title">HTML AND CSS</span><br>designing and sturcturing the web site.</li>
+                        <li><span class="title">REACT</span><br>react is the open-source front-end JavaScript library.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-info" id="experience">
+                    <ul>
+                        <li><span class="title">REACT</span><br>Created the live news app portal and also created the
+                            weather app.</li>
+                        <li><span class="title">JAVASCRIPT</span><br>Created the Portfolio of web developer site.with
+                            the help of JAVASCRIPT.</li>
+                        <li><span class="title">HTML AND CSS</span><br>HTML and CSS is used to designing and sturcturing
+                            the web site.</li>
+                    </ul>
+                </div>
+                <div class="tab-info" id="education">
+                    <ul>
+                        <li><span class="title">JAVA </span><br>core java concepts</li>
+                        <li><span class="title">JAVASCRIPT</span><br>DOM functions</li>
+                        <li><span class="title">HTML AND CSS</span><br>designing and sturcturing the web site</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="container">
+        <div id="servicecontainer">
+            <div id="myservicerow1">
+                <h1>My Services</h1>
+            </div>
+            <div class="service-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita recusandae numquam, quasi iure
+                        magni suscipit et quibusdam quod fugiat eaque? Iste, tempora doloribus assumenda consectetur sed
+                        unde voluptas atque cum.</p>
+
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita recusandae numquam, quasi iure
+                        magni suscipit et quibusdam quod fugiat eaque? Iste, tempora doloribus assumenda consectetur sed
+                        unde voluptas atque cum.</p>
+
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita recusandae numquam, quasi iure
+                        magni suscipit et quibusdam quod fugiat eaque? Iste, tempora doloribus assumenda consectetur sed
+                        unde voluptas atque cum.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    <div id="myworkrow2">
+        <h1>My Work</h1>
+    </div>
+    <div class="work-list">
+        <div class="img2">
+            <img src="img/onlineshoppingimg.jpg" alt="my image" class="img1" />
+            <div class="lyear">
+                <h2>Online shopping App</h2>
+                <p> ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deserunt eos porro,</p>
+            </div>
+        </div>
+        <div class="img2">
+            <img src="img/music.jpg" alt="my image" class="img1" />
+            <div class="lyear">
+                <h2>Music App</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deserunt eos porro,</p>
+            </div>
+        </div>
+        <div class="img2">
+            <img src="img/game1.jpg" alt="my image" class="img1" />
+            <div class="lyear">
+                <h2>Gaming App</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt deserunt eos porro,</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="contactpage" class="contact">
+        <div class="concoloum2">
+            <ul type="none">
+                <li>
+                    Enter your name here :
+                    <input placeholder="Full name" />
+                </li>
+                <li>
+                    Enter your gmail address :
+                    <input placeholder="Gmail ID" />
+                </li>
+                <li>
+
+                    <textarea class="inputtxt" cols="30" rows="5">Enter your questions here...</textarea>
+                </li>
+            </ul>
+
+
+        </div>
+
+        <div class="concoloum1">
+            <h2 id="row1">Contact Me</h2>
+            <div class="gamil">
+                <ul type="none">
+                    <li>
+                        <span>Gmail id:</span>
+                        </br>
+                        suhelsayyad7555@gmail.com
+                    </li>
+                    <li>
+                        <span>Contact number:</span>
+                        </br>
+                        7058282069
+                    </li>
+                    <li>
+                        <span><i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-youtube"></i> <i
+                                class="fa-brands fa-google"></i> <i class="fa-brands fa-facebook"></i> <i
+                                class="fa-brands fa-whatsapp"></i> <i class="fa-brands fa-instagram"></i></span>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+    <div>
+        <button class="btn">Submit</button>
+    </div>
+    <div class="copyright">
+        <p>© Copyright. made by suhel sayyad.</p>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabinfos = document.getElementsByClassName("tab-info");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabinfo of tabinfos) {
+                tabinfo.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var menus = document.getElementById("sidemenu");
+        function openmenu() {
+            menus.style.right = "0px";
+
+        }
+        function closemenu() {
+            menus.style.right = "-200px"
+
+        }
+
+    </script>
+</body>
+
+</html>
